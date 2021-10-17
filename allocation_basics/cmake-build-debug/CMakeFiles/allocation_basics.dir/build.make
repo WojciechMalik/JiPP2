@@ -78,19 +78,49 @@ CMakeFiles/allocation_basics.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/allocation_basics.dir/main.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lothar\Desktop\repozytorium\allocation_basics\main.cpp -o CMakeFiles\allocation_basics.dir\main.cpp.s
 
+CMakeFiles/allocation_basics.dir/C_/Users/Lothar/Desktop/repozytorium/zadanie_domowe/src/calc.cpp.obj: CMakeFiles/allocation_basics.dir/flags.make
+CMakeFiles/allocation_basics.dir/C_/Users/Lothar/Desktop/repozytorium/zadanie_domowe/src/calc.cpp.obj: C:/Users/Lothar/Desktop/repozytorium/zadanie_domowe/src/calc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lothar\Desktop\repozytorium\allocation_basics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/allocation_basics.dir/C_/Users/Lothar/Desktop/repozytorium/zadanie_domowe/src/calc.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\allocation_basics.dir\C_\Users\Lothar\Desktop\repozytorium\zadanie_domowe\src\calc.cpp.obj -c C:\Users\Lothar\Desktop\repozytorium\zadanie_domowe\src\calc.cpp
+
+CMakeFiles/allocation_basics.dir/C_/Users/Lothar/Desktop/repozytorium/zadanie_domowe/src/calc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/allocation_basics.dir/C_/Users/Lothar/Desktop/repozytorium/zadanie_domowe/src/calc.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lothar\Desktop\repozytorium\zadanie_domowe\src\calc.cpp > CMakeFiles\allocation_basics.dir\C_\Users\Lothar\Desktop\repozytorium\zadanie_domowe\src\calc.cpp.i
+
+CMakeFiles/allocation_basics.dir/C_/Users/Lothar/Desktop/repozytorium/zadanie_domowe/src/calc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/allocation_basics.dir/C_/Users/Lothar/Desktop/repozytorium/zadanie_domowe/src/calc.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lothar\Desktop\repozytorium\zadanie_domowe\src\calc.cpp -o CMakeFiles\allocation_basics.dir\C_\Users\Lothar\Desktop\repozytorium\zadanie_domowe\src\calc.cpp.s
+
+CMakeFiles/allocation_basics.dir/C_/Users/Lothar/Desktop/repozytorium/zadanie_domowe/src/main.cpp.obj: CMakeFiles/allocation_basics.dir/flags.make
+CMakeFiles/allocation_basics.dir/C_/Users/Lothar/Desktop/repozytorium/zadanie_domowe/src/main.cpp.obj: C:/Users/Lothar/Desktop/repozytorium/zadanie_domowe/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lothar\Desktop\repozytorium\allocation_basics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/allocation_basics.dir/C_/Users/Lothar/Desktop/repozytorium/zadanie_domowe/src/main.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\allocation_basics.dir\C_\Users\Lothar\Desktop\repozytorium\zadanie_domowe\src\main.cpp.obj -c C:\Users\Lothar\Desktop\repozytorium\zadanie_domowe\src\main.cpp
+
+CMakeFiles/allocation_basics.dir/C_/Users/Lothar/Desktop/repozytorium/zadanie_domowe/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/allocation_basics.dir/C_/Users/Lothar/Desktop/repozytorium/zadanie_domowe/src/main.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lothar\Desktop\repozytorium\zadanie_domowe\src\main.cpp > CMakeFiles\allocation_basics.dir\C_\Users\Lothar\Desktop\repozytorium\zadanie_domowe\src\main.cpp.i
+
+CMakeFiles/allocation_basics.dir/C_/Users/Lothar/Desktop/repozytorium/zadanie_domowe/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/allocation_basics.dir/C_/Users/Lothar/Desktop/repozytorium/zadanie_domowe/src/main.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lothar\Desktop\repozytorium\zadanie_domowe\src\main.cpp -o CMakeFiles\allocation_basics.dir\C_\Users\Lothar\Desktop\repozytorium\zadanie_domowe\src\main.cpp.s
+
 # Object files for target allocation_basics
 allocation_basics_OBJECTS = \
-"CMakeFiles/allocation_basics.dir/main.cpp.obj"
+"CMakeFiles/allocation_basics.dir/main.cpp.obj" \
+"CMakeFiles/allocation_basics.dir/C_/Users/Lothar/Desktop/repozytorium/zadanie_domowe/src/calc.cpp.obj" \
+"CMakeFiles/allocation_basics.dir/C_/Users/Lothar/Desktop/repozytorium/zadanie_domowe/src/main.cpp.obj"
 
 # External object files for target allocation_basics
 allocation_basics_EXTERNAL_OBJECTS =
 
 allocation_basics.exe: CMakeFiles/allocation_basics.dir/main.cpp.obj
+allocation_basics.exe: CMakeFiles/allocation_basics.dir/C_/Users/Lothar/Desktop/repozytorium/zadanie_domowe/src/calc.cpp.obj
+allocation_basics.exe: CMakeFiles/allocation_basics.dir/C_/Users/Lothar/Desktop/repozytorium/zadanie_domowe/src/main.cpp.obj
 allocation_basics.exe: CMakeFiles/allocation_basics.dir/build.make
 allocation_basics.exe: CMakeFiles/allocation_basics.dir/linklibs.rsp
 allocation_basics.exe: CMakeFiles/allocation_basics.dir/objects1.rsp
 allocation_basics.exe: CMakeFiles/allocation_basics.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Lothar\Desktop\repozytorium\allocation_basics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable allocation_basics.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Lothar\Desktop\repozytorium\allocation_basics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable allocation_basics.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\allocation_basics.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

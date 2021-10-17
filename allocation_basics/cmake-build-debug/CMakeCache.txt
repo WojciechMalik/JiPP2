@@ -165,7 +165,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=allocation_basics
+CMAKE_PROJECT_NAME:STATIC=a
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/MinGW/bin/ranlib.exe
@@ -252,6 +252,12 @@ HelloWorld_BINARY_DIR:STATIC=C:/Users/Lothar/Desktop/repozytorium/allocation_bas
 
 //Value Computed by CMake
 HelloWorld_SOURCE_DIR:STATIC=C:/Users/Lothar/Desktop/repozytorium/allocation_basics
+
+//Value Computed by CMake
+a_BINARY_DIR:STATIC=C:/Users/Lothar/Desktop/repozytorium/allocation_basics/cmake-build-debug
+
+//Value Computed by CMake
+a_SOURCE_DIR:STATIC=C:/Users/Lothar/Desktop/repozytorium/allocation_basics
 
 //Value Computed by CMake
 allocation_basics_BINARY_DIR:STATIC=C:/Users/Lothar/Desktop/repozytorium/allocation_basics/cmake-build-debug

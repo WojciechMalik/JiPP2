@@ -83,6 +83,15 @@
 		<Unit filename="C:/Users/Lothar/Desktop/repozytorium/allocation_basics/main.cpp">
 			<Option target="allocation_basics"/>
 		</Unit>
+		<Unit filename="C:/Users/Lothar/Desktop/repozytorium/zadanie_domowe/include/calc.h">
+			<Option target="allocation_basics"/>
+		</Unit>
+		<Unit filename="C:/Users/Lothar/Desktop/repozytorium/zadanie_domowe/src/calc.cpp">
+			<Option target="allocation_basics"/>
+		</Unit>
+		<Unit filename="C:/Users/Lothar/Desktop/repozytorium/zadanie_domowe/src/main.cpp">
+			<Option target="allocation_basics"/>
+		</Unit>
 		<Unit filename="C:/Users/Lothar/Desktop/repozytorium/allocation_basics/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Lothar/Desktop/repozytorium/allocation_basics/main.cpp
+C:/Users/Lothar/Desktop/repozytorium/zadanie_domowe/src/calc.cpp
 iostream
 -
+calc.h
+C:/Users/Lothar/Desktop/repozytorium/zadanie_domowe/src/calc.h
+
+C:/Users/Lothar/Desktop/repozytorium/zadanie_domowe/src/main.cpp
+iostream
+-
+calc.h
+C:/Users/Lothar/Desktop/repozytorium/zadanie_domowe/src/calc.h
 

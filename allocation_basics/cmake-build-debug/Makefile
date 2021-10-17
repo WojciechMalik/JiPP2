@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named allocation_basics
+# Target rules for targets named a
 
 # Build rule for target.
-allocation_basics: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 allocation_basics
-.PHONY : allocation_basics
+a : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 a
+.PHONY : a
 
 # fast build rule for target.
-allocation_basics/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\allocation_basics.dir\build.make CMakeFiles/allocation_basics.dir/build
-.PHONY : allocation_basics/fast
+a/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\a.dir\build.make CMakeFiles/a.dir/build
+.PHONY : a/fast
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\allocation_basics.dir\build.make CMakeFiles/allocation_basics.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\a.dir\build.make CMakeFiles/a.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -141,7 +141,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\allocation_basics.dir\build.make CMakeFiles/allocation_basics.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\a.dir\build.make CMakeFiles/a.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -149,7 +149,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\allocation_basics.dir\build.make CMakeFiles/allocation_basics.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\a.dir\build.make CMakeFiles/a.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -160,7 +160,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... allocation_basics
+	@echo ... a
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

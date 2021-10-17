@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/Lothar/Desktop/repozytorium/zadanie_domowe/src/calc.cpp" "C:/Users/Lothar/Desktop/repozytorium/allocation_basics/cmake-build-debug/CMakeFiles/allocation_basics.dir/C_/Users/Lothar/Desktop/repozytorium/zadanie_domowe/src/calc.cpp.obj"
+  "C:/Users/Lothar/Desktop/repozytorium/zadanie_domowe/src/main.cpp" "C:/Users/Lothar/Desktop/repozytorium/allocation_basics/cmake-build-debug/CMakeFiles/allocation_basics.dir/C_/Users/Lothar/Desktop/repozytorium/zadanie_domowe/src/main.cpp.obj"
   "C:/Users/Lothar/Desktop/repozytorium/allocation_basics/main.cpp" "C:/Users/Lothar/Desktop/repozytorium/allocation_basics/cmake-build-debug/CMakeFiles/allocation_basics.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
