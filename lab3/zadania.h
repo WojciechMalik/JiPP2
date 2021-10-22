@@ -40,7 +40,7 @@ int dzielenie(int a, int b);
 void bledy_z_dzielenia();
 
 //konwertowanie znakow na int
-int konwertowanie(char tablica[]);
+int konwertowanie(string a);
 void bledy_z_konwerowania();
 
 #endif
