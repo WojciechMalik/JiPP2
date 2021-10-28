@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.20)
-project(lab3)
+project(lab4)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(lab3 main.cpp zadania.cpp)
+add_executable(lab4 main.cpp struktury_i_klasy.cpp)
