@@ -1,36 +1,49 @@
-#include <iostream>
-#ifndef PROJEKT1_MACIERZE_H
-#define PROJEKT1_MACIERZE_H
-
+#ifndef JIPP2_MATRIXLIB_H
+#define JIPP2_MATRIXLIB_H
 using namespace std;
 
-int** CreateMatrix(int,int);
-void DeleteMatrix(int**,int);
-int** addMatrix(int **matrix1, int **matrix2, int rows, int columns);
-int** subtractMatrix(int **matrix1, int **matrix2, int rows, int columns);
-int** multiplyMatrix(int **matrix1, int **matrix2, int rows, int columns1, int columns2);
-int** multiplyByScalar(int **matrix, int rows, int columns, int scalar);
-int** transpozeMatrix(int **matrix, int rows, int columns);
-int** powerMatrix(int **matrix, int , unsigned int);
-int determinantMatrix(int**,int);
-bool matrixIsDiagonal(int**,int);
-void swap(int&,int&);
-int* sortRow(int*,int);
-int** sortRowsInMatrix(int**,int,int);
+int **create_matrix(int **, int, int, string);
+double **create_matrix(double **, int, int, string);
 
-double** CreateMatrixDouble(int,int);
-void DeleteMatrix(double**,int);
-double** addMatrix(double**,double**,int,int);
-double** subtractMatrix(double**,double**,int,int);
-double** multiplyMatrix(double**,double**,int,int,int);
-double** multiplyByScalar(double**,int,int,double);
-double** transpozeMatrix(double**,int,int);
-double** powerMatrix(double**,int,unsigned int);
-double determinantMatrix(double**,int);
-bool matrixIsDiagonal(double**,int);
-void swap(double&,double&);
-double* sortRow(double*,int);
-double** sortRowsInMatrix(double**,int,int);
+void print_matrix(int **, int, int, string);
+void print_matrix(double **, int, int, string);
 
+void delete_matrix(int **, int);
+void delete_matrix(double **, int);
 
-#endif //PROJEKT1_MACIERZE_H
+int **addMatrix(int **, int **, int, int);
+double **addMatrix(double **, double **, int, int);
+
+int **subtractMatrix(int **, int **, int, int);
+double **subtractMatrix(double **, double **, int, int);
+
+int **multiplyMatrix(int **, int **, int, int, int);
+double **multiplyMatrix(double **, double **, int, int, int);
+
+int **multiplyByScalar(int **, int, int, int);
+double **multiplyByScalar(double **, int, int, double);
+
+int **transpozeMatrix(int **, int, int);
+double **transpozeMatrix(double **, int, int);
+
+int **powerMatrix(int **, int, int, int);
+double **powerMatrix(double **, int, int, int);
+
+int determinantMatrix(int **, int, int);
+double determinantMatrix(double **, int, int);
+
+bool matrixIsDiagonal(int **, int, int);
+bool matrixIsDiagonal(double **, int, int);
+
+void swap(int &, int &);
+void swap(double &, double &);
+
+int *sortRow(int *, int);
+double *sortRow(double *, int);
+
+int **sortRowsInMatrix(int **, int, int);
+double **sortRowsInMatrix(double **, int, int);
+
+void help();
+
+#endif //JIPP2_MATRIXLIB_H
