@@ -4,9 +4,12 @@
 int main(int argc, char *argv[]){
     int choice_intdouble, m1_rows, m1_columns;
     string choice_functions=argv[1];
+    if(choice_functions=="help") {
+        help();
+        exit(0);
+    }
     cout<<"Jakich zmiennych chcesz uzyc?\n[1]-int\n[2]-double"<<endl;
     cin>>choice_intdouble;
-
     cout<<"Podaj wymiary macierzy:\nIlosc wierszy:";
     cin>>m1_rows;
     cout<<"Ilosc kolumn:";
