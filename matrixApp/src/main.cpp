@@ -17,15 +17,14 @@ int main(int argc, char *argv[]){
     if(choice_intdouble==1){
         int **matrix1, **matrix2, **result;
         matrix1=create_matrix(matrix1, m1_rows, m1_columns, "Macierz 1");
-        if(choice_functions=="addMatrix" || choice_functions=="subtractMatrix"){
+        if(choice_functions=="addMatrix"){
             matrix2= create_matrix(matrix2, m1_rows, m1_columns, "Macierz 2");
-        }
-        else if(choice_functions=="addMatrix"){
             result=addMatrix(matrix1, matrix2, m1_rows, m1_columns);
             print_matrix(result, m1_rows, m1_columns, "Macierz wynikowa");
             delete_matrix(matrix2, m1_rows);
         }
         else if(choice_functions=="subtractMatrix"){
+            matrix2= create_matrix(matrix2, m1_rows, m1_columns, "Macierz 2");
             result=subtractMatrix(matrix1, matrix2, m1_rows, m1_columns);
             print_matrix(result, m1_rows, m1_columns, "Macierz wynikowa");
             delete_matrix(matrix2, m1_rows);
