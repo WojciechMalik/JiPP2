@@ -2,7 +2,6 @@
 #define LAB4_STRUKTURY_I_KLASY_H
 #include <iostream>
 #include <cmath>
-#include "klasy.h"
 using namespace std;
 
 //Zadanie 1. Wyswietlenie tablicy struktur z samochodami

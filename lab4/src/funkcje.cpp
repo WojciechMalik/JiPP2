@@ -1,5 +1,6 @@
 #include "../include/funkcje.h"
 #include "../include/struktura.h"
+#include "klasy.h"
 
 //Zadanie 1. Wyswietlenie tablicy struktur z samochodami
 void zadanie1(){
