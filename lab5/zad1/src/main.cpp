@@ -1,7 +1,3 @@
-//
-// Created by filip on 07.11.2021.
-//
-
 #include <iostream>
 #include "Point.h"
 
@@ -12,8 +8,7 @@ private:
     const int t = 0;
 
 public:
-    TestClass(const int t) : t(t) {
-    }
+    TestClass(const int t) : t(t) {}
 };
 
 int main() {
@@ -49,9 +44,7 @@ int main() {
         p2c.printData();
     }
 
-
     cout << "End program" << endl;
-
 
     return 0;
 }

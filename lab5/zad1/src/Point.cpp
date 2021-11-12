@@ -5,6 +5,14 @@ Point::Point(double x, double y, string name) : name(name) {
     *this->y = y;
 }
 
+Point::Point(Point &point){
+    name=point.name;
+    x=new double;
+    y=new double;
+    *x=*point.x;
+    *y=*point.y;
+}
+
 Point::Point(string name) : name(name) {
     *x = *y = 0;
 }
@@ -40,16 +48,14 @@ bool Point::operator==(const Point &rhs) const {
 }
 
 bool Point::operator!=(const Point &rhs) const {
-    x==new double;
-    *x=*rhs.x;
-    y==new double;
-    *y=*rhs.y;
     return !(rhs == *this);
 }
 
 const string &Point::getName() const {
     return name;
-}//
-// Created by Lothar on 09.11.2021.
-//
+}
 
+Point::~Point(){
+    delete x;
+    delete y;
+}
