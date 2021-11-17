@@ -19,19 +19,19 @@ int main(){
         case 2: {
             double iloczyn;
             Vector v1(10, 10), v2(5, 5);
-            Vector v3, v4, v5, v6;
-            v3=v1.operator-();
-            v4=v1.operator+(v2);
-            v5=v1.operator-(v2);
-            iloczyn=v1.operator*(v2);
-            v6=v1.operator*(5);
-            cout<<"Iloczyn skalarny:"<<iloczyn<<endl;
+            Vector v3;
             cout<<"Wektor 1:";v1.print();
             cout<<"Wektor 2:";v2.print();
+            v3=v1.operator-();
             cout<<"Wektor przeciwny do 1:";v3.print();
-            cout<<"Wektor otrzymany z dodawania 2 pierwszych:";v4.print();
-            cout<<"Wektor otrzymany z odejmowania 2 pierwszych";v5.print();
-            cout<<"Wektor otrzymany z mnozenia wektora 1 przez skalar";v6.print();
+            v3=v1.operator+(v2);
+            cout<<"Wektor otrzymany z dodawania 2 pierwszych:";v3.print();
+            v3=v1.operator-(v2);
+            cout<<"Wektor otrzymany z odejmowania 2 pierwszych";v3.print();
+            iloczyn=v1.operator*(v2);
+            cout<<"Iloczyn skalarny:"<<iloczyn<<endl;
+            v3=v1.operator*(5);
+            cout<<"Wektor otrzymany z mnozenia wektora 1 przez skalar";v3.print();
             if(v1.operator==(v2))
                 cout<<"wektor 1 i wektor 2 sa takie same"<<endl;
             else
@@ -40,19 +40,19 @@ int main(){
         }
         case 3: {
             ComplexNumber zespolona1(2, 5), zespolona2(3, -3);
-            ComplexNumber z3, z4, z5, z6, z7;
-            z3=zespolona1.operator+(zespolona2);
-            z4=zespolona1.operator-(zespolona2);
-            z5=zespolona1.operator*(zespolona2);
-            z6=zespolona1.operator/(zespolona2);
-            z7=zespolona1.operator-();
+            ComplexNumber z3;
             cout<<"Liczba zespolona 1:";zespolona1.print();
             cout<<"Liczba zespolona 2:";zespolona2.print();
+            z3=zespolona1.operator+(zespolona2);
             cout<<"Liczba zespolona otrzymana z dodawania 2 pierwszych";z3.print();
-            cout<<"Liczba zespolona otrzymana z odejmowania 2 pierwszych";z4.print();
-            cout<<"Liczba zespolona otrzymana z mnozenia 2 pierwszych";z5.print();
-            cout<<"Liczba zespolona otrzymana z dzielenia 2 pierwszych";z6.print();
-            cout<<"Liczba zespolona sprzezana do liczby zespolonej 1";z7.print();
+            z3=zespolona1.operator-(zespolona2);
+            cout<<"Liczba zespolona otrzymana z odejmowania 2 pierwszych";z3.print();
+            z3=zespolona1.operator*(zespolona2);
+            cout<<"Liczba zespolona otrzymana z mnozenia 2 pierwszych";z3.print();
+            z3=zespolona1.operator/(zespolona2);
+            cout<<"Liczba zespolona otrzymana z dzielenia 2 pierwszych";z3.print();
+            z3=zespolona1.operator-();
+            cout<<"Liczba zespolona sprzezana do liczby zespolonej 1";z3.print();
             break;
         }
         case 4:{
@@ -65,4 +65,5 @@ int main(){
             showTriangleData(&triangle);
         }
     }
+    return 0;
 }

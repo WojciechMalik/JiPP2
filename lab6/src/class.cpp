@@ -27,10 +27,7 @@ double Vector::operator*(const Vector &rhs) const{
     return x*rhs.x+y*rhs.y;
 }
 //----------KLASA NODE----------
-Node::Node() {
-    x = 0;
-    y = 0;
-}
+Node::Node():x(0),y(0) {}
 Node::Node(double x, double y): x(x), y(y) {}
 void Node::display() {
     cout << "x: " << x << "\ty: " << y << endl;
@@ -49,7 +46,7 @@ std::ostream& operator<<(std::ostream& lhs, const Node &rhs){
 ComplexNumber::ComplexNumber():real(0), imaginary(0){}
 ComplexNumber::ComplexNumber(double r, double im):real(r),imaginary(im){}
 void ComplexNumber::print() const {
-    cout<<"Liczba zespolona:"<<real<<"+"<<imaginary<<"i"<<endl;
+    cout<<"Liczba zespolona re:"<<real<<"im:"<<imaginary<<"i"<<endl;
 }
 ComplexNumber ComplexNumber::operator+(const ComplexNumber &rhs)const{
     return {real+rhs.real, imaginary+rhs.imaginary};
@@ -76,7 +73,6 @@ std::ostream& operator<<(std::ostream& lhs, const Vector &rhs){
     return lhs<<"("<<rhs.x<<")"<<rhs.y<<")";
 }
 //----------KLASA TRIANGLE----------
-Triangle::Triangle(){}
 Triangle::Triangle(Node x, Node y, Node z, string n): a(x), b(y), c(z), name(n){}
 std::ostream& operator<<(std::ostream& lhs, const Triangle &rhs){
     return lhs<<"Triangle "<<rhs.name<<" "<<rhs.a<<" "<<rhs.b<<" "<<rhs.c;
