@@ -63,6 +63,7 @@ int main(){
             cout << triangle << endl;
             cout << "Distance between first and second point is " << triangle.distance(0,1) << endl;
             showTriangleData(&triangle);
+            break;
         }
     }
     return 0;
