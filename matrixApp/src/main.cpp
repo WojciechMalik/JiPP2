@@ -34,9 +34,9 @@ int main(int argc, char *argv[]){
             cout<<"Podaj ilosc kolumn dla nowej macierzy(ilosc wierszy jest rowna ilosci kolumn 1 macierzy)\nIlosc kolumn:";
             cin>>m2_columns;
             matrix2=create_matrix(matrix2, m1_columns, m2_columns, "Macierz 2");
-            result=multiplyMatrix(matrix1, matrix2, m1_rows, m1_columns, m1_columns);
-            print_matrix(result, m1_rows, m1_columns, "Macierz wynikowa");
-            delete_matrix(matrix2, m1_columns);
+            result=multiplyMatrix(matrix1, matrix2, m1_rows, m1_columns, m2_columns);
+            print_matrix(result, m1_rows, m2_columns, "Macierz wynikowa");
+            delete_matrix(matrix2, m2_columns);
         }
         else if(choice_functions=="multiplyByScalar"){
             int scalar;
@@ -114,9 +114,9 @@ int main(int argc, char *argv[]){
             cout<<"Podaj ilosc kolumn dla nowej macierzy(ilosc wierszy jest rowna ilosci kolumn 1 macierzy)\nIlosc kolumn:";
             cin>>m2_columns;
             matrix2=create_matrix(matrix2, m1_columns, m2_columns, "Macierz 2");
-            result=multiplyMatrix(matrix1, matrix2, m1_rows, m1_columns, m1_columns);
-            print_matrix(result, m1_rows, m1_columns, "Macierz wynikowa");
-            delete_matrix(matrix2, m1_columns);
+            result=multiplyMatrix(matrix1, matrix2, m1_rows, m1_columns, m2_columns);
+            print_matrix(result, m1_rows, m2_columns, "Macierz wynikowa");
+            delete_matrix(matrix2, m2_columns);
         }
         else if(choice_functions=="multiplyByScalar"){
             double scalar;

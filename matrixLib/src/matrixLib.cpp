@@ -17,7 +17,7 @@ int **create_matrix(int **m1, int m1_r, int m1_c, string choice){
 }
 double **create_matrix(double **m1, int m1_r, int m1_c, string choice){
     m1=new double *[m1_r];
-    for(int i=0;i<m1_c;i++)
+    for(int i=0;i<m1_r;i++)
         m1[i]=new double [m1_c];
     if(choice=="Macierz 1"||choice=="Macierz 2") {
         cout << "Wpisz liczby w macierz:" << endl;
